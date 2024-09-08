@@ -131,3 +131,31 @@ bottom: 32px;
         background-image: url('../img/hero/bg-desktop@2x-min.png');
     }
 }
+.btn-scroll-top {
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    z-index: 20;
+}
+
+.btn-scroll-top-icon {
+    fill: rgba(252, 249, 249, 0.4);
+    transition: fill 0.2s cubic-bezier(0.34, 0.78, 0.68, 0.41);
+}
+
+.btn-scroll-top-icon:hover,
+.btn-scroll-top-icon:focus {
+    fill: #ed3b44;
+}
+
+.is-btnshow {
+    opacity: 1;
+    transition: opacity 0.2s cubic-bezier(0.34, 0.78, 0.68, 0.41);
+}
+
+.is-btnshow-hide {
+    opacity: 0;
+}
